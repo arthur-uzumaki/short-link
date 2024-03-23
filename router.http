@@ -1,0 +1,18 @@
+@baseURL = http://localhost:3333
+POST  {{baseURL}}/api/links
+Content-Type: application/json
+
+{
+  "code": "teste",
+  "url": "https://www.rocketseat.com.br"
+}
+
+###
+GET   {{baseURL}}/api/links
+###
+
+GET   {{baseURL}}/api/metrics
+
+###
+
+GET  {{baseURL}}/teste
